@@ -1,12 +1,12 @@
-var MakeBouncyDancer = function (top,left, timeBetweenSteps) {
+var MakePickleDancer = function (top,left, timeBetweenSteps) {
   MakeDancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<span class="bouncers"></span>');
+  this.$node = $('<span class="pickle"></span>');
   this.setPosition(top, left);
 }
-MakeBouncyDancer.prototype = Object.create(MakeDancer.prototype);
-MakeBouncyDancer.prototype.constructor = MakeBouncyDancer;
+MakePickleDancer.prototype = Object.create(MakeDancer.prototype);
+MakePickleDancer.prototype.constructor = MakePickleDancer;
 
-MakeBouncyDancer.prototype.step = function() {
+MakePickleDancer.prototype.step = function() {
   MakeDancer.prototype.step.call(this);
-  this.$node.toggle("pulsate");
+  this.$node;
 }

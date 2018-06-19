@@ -13,6 +13,10 @@ body, a:link, a:visited, a:active{
   padding:5px 12px;
   float:right;
 }
+.LineupButton {
+  padding:5px 12px;
+  float: left;
+}
 .topbar{
   height:32px;
   background-color: #555;
@@ -20,17 +24,28 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
-.dancer{
-  border:10px solid red;
-  border-radius:10px;
+.charmander{
+  /* content: url(https://emojis.slackmojis.com/emojis/images/1469223471/679/charmander_dancing.gif?1469223471); */
+  position:absolute;
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+}
+.pickle{
+  content:url(https://emojis.slackmojis.com/emojis/images/1450447981/152/aw_yeah.gif?1450447981);
+  height: 50px;
+  width: 50px;
   position:absolute;
 }
-.bouncers{
-  border:10px solid blue;
-  border-radius:10px;
+.leftshark{
+  content:url(https://emojis.slackmojis.com/emojis/images/1466643149/555/leftshark.gif?1466643149);
   position:absolute;
+  height: 50px;
+  width: 50px;
 }
-.squares{
-  border:10px solid whitesmoke;
+.ML{
+  content:url(https://emojis.slackmojis.com/emojis/images/1490885301/1973/mario_luigi_dance.gif?1490885301);
+  height: 50px;
+  width: 50px;
   position:absolute;
 }
