@@ -25,3 +25,12 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.bouncers{
+  border:10px solid blue;
+  border-radius:10px;
+  position:absolute;
+}
+.squares{
+  border:10px solid whitesmoke;
+  position:absolute;
+}
