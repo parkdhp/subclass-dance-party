@@ -25,11 +25,10 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .charmander{
-  /* content: url(https://emojis.slackmojis.com/emojis/images/1469223471/679/charmander_dancing.gif?1469223471); */
+  content: url(https://emojis.slackmojis.com/emojis/images/1469223471/679/charmander_dancing.gif?1469223471);
   position:absolute;
-  z-index: 1;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 .pickle{
   content:url(https://emojis.slackmojis.com/emojis/images/1450447981/152/aw_yeah.gif?1450447981);

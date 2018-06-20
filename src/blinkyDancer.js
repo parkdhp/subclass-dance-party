@@ -1,10 +1,54 @@
-var MakeCharmander = function (top,left, timeBetweenSteps) {
-  MakeDancer.call(this, top, left, timeBetweenSteps);
-}
-MakeCharmander.prototype = Object.create(MakeDancer.prototype);
-MakeCharmander.prototype.constructor = MakeCharmander;
+class MakeCharmander extends MakeDancer {
+  constructor (top, left, timeBetweenSteps) {
+    super(top, left, timeBetweenSteps);
+  }
 
-MakeCharmander.prototype.step = function() {
-  MakeDancer.prototype.step.call(this);
-  this.$node;
+  step() {
+    super.step();
+    this.$node;
+  }
 }
+
+class MakePickleDancer extends MakeDancer {
+  constructor (top, left, timeBetweenSteps) {
+    super(top, left, timeBetweenSteps);
+    this.$node = $('<span class="pickle"></span>');
+    this.setPosition(top, left);
+  }
+
+  step() {
+    super.step();
+    this.$node;
+  }
+}
+
+class MakeMLDancer extends MakeDancer {
+  constructor (top, left, timeBetweenSteps) {
+    super(top, left, timeBetweenSteps);
+    this.$node = $('<span class="ML"></span>');
+    this.setPosition(top, left);
+  }
+
+  step() {
+    super.step();
+    this.$node;
+  }
+}
+
+class MakeLeftShark extends MakeDancer {
+  constructor (top, left, timeBetweenSteps) {
+    super(top, left, timeBetweenSteps);
+    this.$node = $('<span class="leftshark"></span>');
+    this.setPosition(top, left);
+  }
+
+  step() {
+    super.step();
+    this.$node;
+  }
+}
+
+window.MakeCharmander = MakeCharmander;
+window.MakePickleDancer = MakePickleDancer;
+window.MakeMLDancer = MakeMLDancer;
+window.MakeLeftShark = MakeLeftShark;
